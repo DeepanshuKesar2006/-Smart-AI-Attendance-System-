@@ -1,0 +1,26 @@
+# Environments
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Data — do not commit personal face data
+dataset/
+processed_dataset/
+embeddings/
+database/
+logs/
+backup/
+exports/
+
+# Models
+models/*.h5
+models/*.pb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
