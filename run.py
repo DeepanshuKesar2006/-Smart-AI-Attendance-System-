@@ -2,7 +2,8 @@ import cv2
 import time
 
 from app.camera import Camera
-from app.recognizer import FaceRecognizer
+# from app.recognizer import FaceRecognizer
+from app.cnn_recognizer import CNNFaceRecognizer as FaceRecognizer
 from app.attendance import AttendanceManager
 from config.settings import FONT, GREEN, RED, BLUE
 
