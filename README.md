@@ -1,4 +1,4 @@
-# Smart AI Attendance System (V3)
+# Smart AI Attendance System (V2)
 
 A real-time face recognition attendance system built with OpenCV, FaceNet embeddings, and cosine similarity matching, with a Streamlit dashboard for analytics and student management.
 
