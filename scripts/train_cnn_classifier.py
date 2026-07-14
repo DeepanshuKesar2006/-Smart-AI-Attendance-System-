@@ -16,7 +16,7 @@ from config.settings import DATASET_DIR, MODELS_DIR
 
 IMAGE_SIZE = (128, 128)
 EPOCHS = 60
-BATCH_SIZE = 32  # increased from 8 — more stable BatchNorm statistics
+BATCH_SIZE = 16  # increased from 8 — more stable BatchNorm statistics
 
 MODEL_PATH = os.path.join(MODELS_DIR, "face_cnn.keras")  # .keras, not legacy .h5
 LABELS_PATH = os.path.join(MODELS_DIR, "class_labels.json")
